@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <Header klasse = "5BHIT"/>
+    <Header klasse="5BHIT" />
     <Main />
+    <Footer />
   </div>
 </template>
 
@@ -15,7 +16,7 @@ export default {
   components: {
     Header,
     Main,
-    Footer
+    Footer,
   },
 };
 </script>

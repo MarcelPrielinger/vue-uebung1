@@ -9,7 +9,7 @@
   export default {
     name: 'Header',
     props: {
-      klasse: String
+      klasse: { type: String, required: true}
     }
   }
 </script>
